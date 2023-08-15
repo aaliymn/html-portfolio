@@ -15,6 +15,28 @@ img {
 a {
   text-decoration: none;
 }
+.soft {
+  transition: 0.2s;
+}
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+.blk {
+  color: black;
+}
+.bgwhite {
+  background-color: white;
+}
+.bgblack {
+  background-color: black;
+}
 .header,
 .desc {
   text-align: center;
@@ -26,7 +48,6 @@ a h3 {
 .summary {
   margin: auto;
   margin-top: 3rem;
-  max-width: 50%;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
@@ -41,14 +62,18 @@ a h3 {
     #6dd5ed,
     #2193b0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 10px 36px 14px rgba(0, 0, 0, 0.1);
-
   color: white;
   font-weight: bolder;
   font-size: 1.25rem;
 }
+.projects {
+  background: white;
+}
 .content {
   padding: 10px;
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
 }
 .content h3 {
   margin: 1.25rem 0 1.25rem 0;
