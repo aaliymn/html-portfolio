@@ -4,59 +4,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
+    <title>Ali Yaman</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="header">Ali Yaman</h1>
-    <h2 class="desc">I am a Web Developer</h2>
-    <hr />
-    <div class="summary">
-      <div class="content">
-        <h3 class="btn bgwhite blk soft">Summary</h3>
-        <p>
-          Born in 4th of July 2000, my aim is to become a front end developer to
-          chase my dreams.
-        </p>
-        <h3 class="btn bgwhite blk soft">Education</h3>
-        <p>
-          I've studied primary school at Alemdarpasa Ilkokulu and Ortaokulu,
-          I've completed my high school education at <mark>HHBAL</mark> and I am
-          currently studying ELT at Mersin University
-        </p>
-        <h3 class="btn bgwhite blk soft">Work Experience</h3>
-        <p>
-          I don't have and previous job experience in web development field yet.
-        </p>
-        <h3 class="btn bgwhite blk soft">Skills</h3>
-        <p>I know HTML and basic CSS</p>
+    <header>
+      <div class="header-container">
+        <div class="title">
+          <a href="#section-a">
+            <h1>Ali Yaman</h1>
+          </a>
+        </div>
+        <div class="buttons-container">
+          <a class="btn" href="#section-b">&lt;Projects&gt;</a>
+          <a class="btn" href="">&lt;Contact&gt;</a>
+        </div>
       </div>
-    </div>
-    <div class="summary projects">
-      <div class="content">
-        <h3 class="btn bgwhite blk soft">Projects</h3>
-        <a href="./public/movie-ranking.html">
-          <h3>Movie Ranking Project</h3>
-        </a>
-        <img
-          src="./assets/images/movie-ranking.png"
-          alt="movie ranking project preview"
-        />
-        <a href="./public/birthday-invite.html">
-          <h3>Birthday Invite Project</h3>
-        </a>
-        <img
-          src="./assets/images/birthday-invite.png"
-          alt="birthday invite project preview"
-        />
+    </header>
+    <section id="section-a">
+      <div class="container">
+        <h2>Hello I'm Ali Yaman</h2>
+        <p class="selfdesc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          quibusdam suscipit. Repellat facere quisquam sit molestias natus
+          voluptatibus suscipit inventore perspiciatis sed mollitia possimus,
+          commodi exercitationem, totam ex consequatur harum, maiores dolor.
+          Harum laudantium eveniet, error repellendus ipsum ad, quae veniam sint
+          aspernatur qui quas quod consectetur animi dolorum ea?
+        </p>
       </div>
-    </div>
+    </section>
+    <section id="section-b">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="container-projects">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/images/birthday-invite.png"
+              alt=""
+            />
+            <a href=""> Project1 </a>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card">
+            <img class="card-img" src="./assets/images/pchart.png" alt="" />
+
+            <a href=""> Project1 </a>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="card">
+            <img class="card-img" src="./assets/images/pchart.png" alt="" />
+            <a href="">Project1</a>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
-  <footer>
-    <div class="summary abcnt">
-      <a href="./public/about.html">About Me</a>
-      <a href="./public/contact.html">Contact Me</a>
-      <p>© 2023</p>
-    </div>
-  </footer>
 </html>
