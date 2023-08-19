@@ -50,8 +50,8 @@ header {
 /* Section A */
 #section-a {
   height: 75vh;
-  margin-top: 200px;
-  margin-left: 300px;
+  padding-top: 200px;
+  padding-left: 300px;
 }
 .container {
   height: auto;
@@ -71,6 +71,7 @@ header {
 /* Section B */
 #section-b {
   height: 500px;
+  padding-top: 150px;
   margin-bottom: 300px;
 }
 #section-b > .container > h2 {
