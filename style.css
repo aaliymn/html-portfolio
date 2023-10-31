@@ -70,13 +70,45 @@ header {
 }
 /* Section B */
 #section-b {
-  height: 500px;
-  padding-top: 150px;
-  margin-bottom: 300px;
+  height: auto;
+  padding: 150px 0;
+  background-color: #071429;
+}
+/* Technologies */
+#tech {
+  padding: 150px 0;
+}
+#tech h2 {
+  margin-left: 300px;
+}
+.technologies {
+  user-select: none;
+
+  text-align: center;
+  font-size: 10rem;
+}
+.technologies i {
+  margin: 100px 50px 0;
+}
+/* Logo Colors */
+#htmllogo {
+  color: #e34b2e;
+}
+#csslogo {
+  color: #2354df;
+}
+#jslogo {
+  color: #efd81d;
+}
+#nodelogo {
+  color: #7fc728;
+}
+#npmlogo {
+  color: #c53635;
 }
 #section-c {
-  padding-top: 150px;
-  margin-bottom: 300px;
+  padding: 300px 0;
+  background-color: #071429;
 }
 #section-b > .container > h2 {
   margin-left: 300px;
@@ -88,6 +120,7 @@ header {
   width: 100%;
 }
 .card {
+  max-width: 400px;
   margin-top: 100px;
   background-color: #091c38;
   border-radius: 10px;
@@ -126,12 +159,17 @@ header {
   color: white;
   text-decoration: none;
 }
+.contact > p {
+  margin: 20px;
+}
 .contact > a {
   user-select: none;
   color: rgb(27, 175, 180);
   text-decoration: none;
+  font-size: 2rem;
 }
 footer {
   text-align: center;
   color: rgb(154, 159, 163);
+  background-color: #071429;
 }

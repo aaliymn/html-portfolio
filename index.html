@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ali Yaman</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +25,7 @@
     <header>
       <div class="header-container">
         <div class="title">
-          <a href="#section-a">
+          <a href="#">
             <h1>Ali Yaman</h1>
           </a>
         </div>
@@ -47,25 +51,42 @@
         <h2>Projects</h2>
         <div class="container-projects">
           <div class="card">
-            <img
-              class="card-img"
-              src="./assets/images/birthday-invite.png"
-              alt=""
-            />
-            <a href=""> Project1 </a>
-            <p>PLACEHOLDER.</p>
+            <img class="card-img" src="./assets/images/todolist.png" alt="" />
+            <a target="_blank" href="https://github.com/aaliymn/todoapp">
+              Todo List
+            </a>
+            <p>A simple todo list web app.</p>
           </div>
           <div class="card">
-            <img class="card-img" src="./assets/images/pchart.png" alt="" />
+            <img class="card-img" src="./assets/images/drumkit.png" alt="" />
 
-            <a href=""> Project1 </a>
-            <p>PLACEHOLDER.</p>
+            <a target="_blank" href="/drum/index.html"> Drum Game </a>
+            <p>
+              Drum kit web app. Can play sounds with both keyboard and mouse
+              clicks.
+            </p>
           </div>
           <div class="card">
-            <img class="card-img" src="./assets/images/pchart.png" alt="" />
-            <a href="">Project1</a>
-            <p>PLACEHOLDER.</p>
+            <img class="card-img" src="./assets/images/simongame.png" alt="" />
+            <a target="_blank" href="./simon/index.html">Simon Game</a>
+            <p>
+              Simon game web app with the ability to store the order
+              incrementally.
+            </p>
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="tech">
+      <div class="container">
+        <h2>Technologies</h2>
+        <br /><br />
+        <div class="technologies">
+          <i id="htmllogo" class="fa-brands fa-html5"></i>
+          <i id="csslogo" class="fa-brands fa-css3-alt"></i>
+          <i id="jslogo" class="fa-brands fa-js"></i>
+          <i id="nodelogo" class="fa-brands fa-node"></i>
+          <i id="npmlogo" class="fa-brands fa-npm"></i>
         </div>
       </div>
     </section>
@@ -74,7 +95,7 @@
         <div class="contact">
           <h2>Contact Me!</h2>
           <p>We can achieve great things together!</p>
-          <a href="mailto:myaman.3434@gmail.com"
+          <a class="btn" href="mailto:myaman.3434@gmail.com"
             ><i class="fa-regular fa-envelope"></i> E-mail</a
           >
         </div>
